@@ -18,8 +18,8 @@ async def run_script(data):
 
         # LOGIN
         await page.goto("https://app2.artia.com/users/login")
-        await page.fill('[data-test-id="userEmail"]', "SEU_EMAIL")
-        await page.fill('[data-test-id="userPassword"]', "SUA_SENHA")
+        await page.fill('[data-test-id="userEmail"]', "cristiano.torres@kepler.com.br")
+        await page.fill('[data-test-id="userPassword"]', "Octuber12")
         await page.click('[data-test-id="sign-in"]')
 
         # EXEMPLO SIMPLES
